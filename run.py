@@ -1,6 +1,6 @@
 import os
+from taskmanager import app
 
-from taskmanager import app  # type: ignore
 
 if __name__ == "__main__":
     app.run(

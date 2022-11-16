@@ -1,6 +1,6 @@
 from flask import render_template
 
-from taskmanager import app, db  # type: ignore
+from taskmanager import app, db
 
 
 @app.route("/")
